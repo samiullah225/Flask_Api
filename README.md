@@ -6,7 +6,7 @@ file from user. Another route /upload is used to save the uploaded file to serve
 
 2) Count_Names.py is used to count names that contains siddique in their last name.
 
-   3&4) Combining 1 and 2 means to upload text file and count name in it. Goal1AndGoal2.py has three routes  as under
+ 3&4) Combining 1 and 2 means to upload text file and count name in it. Goal1AndGoal2.py has three routes  as under
    --> The / base url is used to request html page which is form to upload the file that contains names.
    --> The /uploader route is used to process the upload file and count the names that contains  siddique in their last name.
        It also saves the names of user in file to database file named as User.db
