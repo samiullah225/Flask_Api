@@ -9,8 +9,8 @@ def upload_file_front():
     return render_template('UploadFile.html')
 
 
-@app.route('/uploader', methods=['GET', 'POST'])
-def upload_file():
+@app.route('/upload', methods=['GET', 'POST'])
+def uploadFile():
     if request.method == 'POST':
         f = request.files['file']
         f.save(secure_filename(f.filename))
